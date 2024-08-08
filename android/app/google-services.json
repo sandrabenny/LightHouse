@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888240749330",
+    "project_id": "lighthouse1-7ed24",
+    "storage_bucket": "lighthouse1-7ed24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888240749330:android:1ba1a19658b2fbcf0c51cb",
+        "android_client_info": {
+          "package_name": "com.mycompany.lighthouse2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTjCL5H3j9xvjjhuzKQqa3fDqGU0-T6KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

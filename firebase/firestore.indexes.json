@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "post_user",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "com_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_posted",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "post_user_video",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "com_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_posted",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "post_investor",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "investor_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_posted",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chat_users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reciever_mail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "pushed_mail",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "request_inv",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reciever_mail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
